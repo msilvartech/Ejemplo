@@ -63,7 +63,7 @@ The script can also be manually triggered whenever required to add users from th
 ![image](https://github.com/user-attachments/assets/1455b952-00fc-4830-8f8e-555c119a6559)
 
 ---
-### Step 4: Uswer Cleanup in Databricks
+### Step 4: User Cleanup in Databricks
 The script now includes functionality to remove users who:
  Are no longer part of the specified Azure AD groups.
  Are not listed in the $exceptionList.
