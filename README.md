@@ -64,6 +64,15 @@ The script can also be manually triggered whenever required to add users from th
 
 ---
 
+### Step 4: Uswer Cleanup in Databricks
+The script now includes functionality to remove users who:
+ Are no longer part of the specified Azure AD groups.
+ Are not listed in the $exceptionList.
+
+ This ensures that Databricks remains synchronized with Entra ID, enhancing security and reducing unnecessary user access.
+Note
+Users in the $exceptionList will never be removed, even if they are no longer part of the specified Azure AD groups. Keep this list up to date to ensure compliance and avoid unexpected behaviors.
+
 ## Conclusion
 
 This integration process looks to be an efficient access management via Azure AD groups, streamlining the addition of new users to Databricks. By automating the user provisioning process, organizations can achieve:
