@@ -29,7 +29,7 @@ if (-not (Get-Module -ListAvailable -Name AzureAD)) {
 
 Connect-AzureAD
 
-$workspaceUrl = "https://adb-1777639999844358.18.azuredatabricks.net"
+$workspaceUrl = "https://adb-1777639999844358.18.azuredatabricks.net" # Databrick URL
 $groupIdAzureAD = "fd9e855b-2ed4-4210-ad52-3c90c94b28e7"  # Group ID in Azure AD
 $token = "dapi7a7d0f9e564028971117890a53544ba6-3"  # Databricks token
  
